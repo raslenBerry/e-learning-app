@@ -1,0 +1,119 @@
+:root {
+    --primary-color: #4caf50;
+    --secondary-color: #ffffff;
+    --bg-gradient: linear-gradient(to right, #4caf50, #8bc34a);
+    --text-color: #333;
+    --btn-hover: #45a049;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .auth-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  .auth-box {
+    display: flex;
+    background: var(--secondary-color);
+    box-shadow: 0 8px 15px #45a049;
+    border-radius: 8px;
+    overflow: hidden;
+    max-width: 900px;
+    width: 100%;
+  }
+  
+  .auth-left,
+  .auth-right {
+    flex: 1;
+    padding: 40px;
+    position: relative;
+  }
+  
+  .auth-left {
+    background-color: var(--secondary-color);
+  }
+  
+  .auth-right {
+    background: var(--bg-gradient);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .auth-right .overlay {
+    color: var(--secondary-color);
+    text-align: center;
+  }
+  
+  .auth-left h1 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: var(--primary-color);
+  }
+  
+  .auth-left .sub-text {
+    margin-bottom: 30px;
+    color: var(--text-color);
+  }
+  
+  .form {
+    width: 100%;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    font-weight: bold;
+    color: var(--text-color);
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .btn {
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .btn:hover {
+    background: var(--btn-hover);
+  }
+  
+  .forgot-link,
+  .account-link a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+  
+  .account-link a:hover {
+    text-decoration: underline;
+  }
+  
+  small {
+    color: red;
+    font-size: 0.8rem;
+  }
+  

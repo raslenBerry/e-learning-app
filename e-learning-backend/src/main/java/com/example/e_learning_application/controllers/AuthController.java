@@ -6,7 +6,6 @@ import com.example.e_learning_application.config.LoginResponse;
 import com.example.e_learning_application.entities.User;
 import com.example.e_learning_application.services.UserService;
 import com.example.e_learning_application.security.JWTUtil;
-import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
